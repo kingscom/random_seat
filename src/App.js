@@ -118,14 +118,14 @@ const App = () => {
             onClick={() => handleLayoutSelect('4x5')}
             disabled={employeeList.length === 0}
           >
-            4×5 레이아웃 (20자리)
+            크랙반 (20자리)
           </button>
           <button 
             className="layout-btn"
             onClick={() => handleLayoutSelect('6x4')}
             disabled={employeeList.length === 0}
           >
-            6×4 레이아웃 (24자리)
+            리시반 (24자리)
           </button>
         </div>
 
